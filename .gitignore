@@ -1,0 +1,61 @@
+.history
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+# Logs
+logs/*
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# new relic log
+newrelic_agent.log
+
+# Coverage directory used by tools like istanbul
+coverage
+
+#package-lock
+package-lock.json
+
+# PHP Storm folder
+.idea/
+.vscode/*
+!.vscode/launch.json.dist
+
+# npm packages
+node_modules/
+
+# Development environment configuration
+config/*
+!config/checkout
+!config/scoreForm
+!config/default.example.json
+!config/default.polymer3-th.json
+!config/default.local-example.json
+!config/default.live-example.json
+!config/mapping.json
+!config/postcodes.json
+!config/partners.json
+!config/registrationProvince.json
+!config/subDistricts.json
+!config/b2bSidebarContent.json
+!config/loadPluginsByInstance.json
+!config/instances
+
+# Static content (Web Components)
+resources/frank-flow-polymer
+
+# Mac quirks
+.DS_Store
+
+# docker-compose
+docker-compose.yml
+
+# Release generator
+/scripts/generate-release/projects.json
+
+_data
